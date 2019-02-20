@@ -5,7 +5,7 @@
   "repository": "git@github.com:raultinelli/gobarber.git",
   "author": "Raul Tinelli de Salles <raul.tinelli@gmail.com>",
   "license": "MIT",
-  "scrips": {
+  "scripts": {
     "start": "nodemon src/index.js"
   },
   "devDependencies": {
@@ -15,10 +15,13 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "sequelize-cli": "^5.4.0"
   },
   "dependencies": {
     "express": "^4.16.4",
-    "nunjucks": "^3.1.7"
+    "nunjucks": "^3.1.7",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
   }
 }
